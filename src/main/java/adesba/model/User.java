@@ -1,9 +1,9 @@
 package adesba.model;
-
-import javax.persistence.Entity;
+//
+//import javax.persistence.Entity;
 import java.io.Serializable;
 import java.util.Date;
-@Entity
+//@Entity
 public class User implements Serializable {
     private String correo;
     private String username;
