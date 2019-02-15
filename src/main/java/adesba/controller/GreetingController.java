@@ -14,4 +14,10 @@ public class GreetingController {
         return "gt";
     }
 
+    @RequestMapping(value = ("/bum"))
+    public String bum(Model model){
+        model.addAttribute("bum","jojojojojo");
+        return "index";
+    }
+
 }
